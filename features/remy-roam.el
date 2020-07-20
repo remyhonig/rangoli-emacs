@@ -11,7 +11,7 @@
 (use-package org-journal
   :custom
   (org-journal-dir org-directory)
-  (org-journal-date-prefix "#+ROAM_TITLE: ")
+  (org-journal-date-prefix "#+title: ")
   (org-journal-file-format "%Y-%m-%d.org")
   (org-journal-date-format "%A, %d %B %Y"))
 
