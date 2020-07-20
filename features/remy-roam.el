@@ -29,6 +29,11 @@
               :map org-mode-map
               (("C-c n i" . org-roam-insert))))
 
+
+(straight-use-package 'company-org-roam)
+(add-to-list 'company-backends #'company-org-roam)
+(add-hook 'after-init-hook 'global-company-mode)
+
 (straight-use-package 'org-download)
 (use-package org-download
   :after org
