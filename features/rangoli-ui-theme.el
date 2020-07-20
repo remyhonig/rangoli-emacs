@@ -25,8 +25,8 @@
 
 ;;; Default Theme
 
-(defvar rangoli/default-theme-light 'kaolin-light)
-(defvar rangoli/default-theme-dark 'kaolin-dark)
+(defvar rangoli/default-theme-light 'tango)
+(defvar rangoli/default-theme-dark 'gruvbox)
 (defvar rangoli/default-theme-console 'zenburn)
 
 (defun rangoli/mac-appearance ()

@@ -61,6 +61,10 @@
 
 ;; You probably /do not/ want these
 
+(require 'remy-org)
+(require 'remy-ui)
+(require 'remy-personal)
+
 ;; (require 'swa-org)
 ;; (require 'swa-bookmarks)
 ;; (require 'swa-personal)

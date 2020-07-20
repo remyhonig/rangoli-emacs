@@ -1,7 +1,7 @@
 ;; rangoli-config.el --- core config -*- lexical-binding: t; -*-
 
 (defvar rangoli/notes-dir
-  (f-expand "~/notes/")
+  (f-expand "~/Dropbox/Notes")
   "Home directory.")
 
 ;; I use a separate repository for highly-specific elisp code that I do not want to publish online.
