@@ -62,6 +62,7 @@
 ;; You probably /do not/ want these
 
 (require 'remy-org)
+(require 'remy-roam)
 (require 'remy-ui)
 (require 'remy-personal)
 

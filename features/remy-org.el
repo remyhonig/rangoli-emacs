@@ -17,7 +17,11 @@
 
  org-habit-graph-column 60
 
- org-agenda-use-time-grid nil)
+ org-agenda-use-time-grid nil
+
+ org-return-follows-link t
+
+ org-startup-with-inline-images t)
 
 ;;; Todo states
 
