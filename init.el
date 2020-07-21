@@ -64,6 +64,7 @@
 (require 'remy-org)
 (require 'remy-roam)
 (require 'remy-ui)
+(require 'remy-text)
 (require 'remy-personal)
 
 ;; (require 'swa-org)

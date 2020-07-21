@@ -24,18 +24,18 @@
 (global-set-key [C-mouse-5] 'text-scale-decrease)
 (set-face-attribute 'default nil
                     :family "Ubuntu Mono"
-                    :height 160
+                    :height 140
                     :weight 'normal
                     :width 'normal)
 
 
 (straight-use-package 'doom-modeline)
-(doom-modeline-mode 1)
+(doom-modeline-mode)
 
 (straight-use-package 'dashboard)
 (straight-use-package 'page-break-lines)
 
-(setq dashboard-items '((recents  . 5)
+(setq dashboard-items '((recents  . 10)
                         (projects . 5)
                         (bookmarks . 5)))
 
@@ -79,5 +79,8 @@
         (width . 102) ; character
         (height . 80) ; lines
         ))
+
+(setq ivy-initial-inputs-alist nil)
+
 
 (provide 'remy-ui)

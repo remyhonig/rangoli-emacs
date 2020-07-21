@@ -23,6 +23,16 @@
 
  org-startup-with-inline-images t)
 
+(straight-use-package 'use-package)
+(use-package org
+  :init
+  (define-key org-mode-map (kbd "<S-right>") nil)
+  (define-key org-mode-map (kbd "<S-left>") nil)
+  (define-key org-mode-map (kbd "<S-up>") nil)
+  (define-key org-mode-map (kbd "<S-down>") nil)
+  )
+
+
 ;;; Todo states
 
 ;; ! indicates insert timestamp

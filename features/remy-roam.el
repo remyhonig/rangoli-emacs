@@ -37,9 +37,10 @@
 (straight-use-package 'org-download)
 (use-package org-download
   :after org
+  :config
+  (global-set-key (kbd "C-S-v") 'org-download-screenshot)
   :custom
-  (org-download-screenshot-method "xclip -selection clipboard -t image/png -o > %s")
-  (org-agenda-files (list org-directory)))
+  (org-download-screenshot-method "xclip -selection clipboard -t image/png -o > %s"))
 
 
 (setq org-roam-server-host "127.0.0.1"
